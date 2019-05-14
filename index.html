@@ -5,8 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Agenda Telefônica</title>
+    
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
-    
+    <div class="row">
+        <div class="container">
+            <br>
+            <h2>Agenda Telefônica</h2>
+            <div class="card">
+                <div class="card-body">
+                    <label for="exampleFormControlInput1">Nome</label>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-file-signature"></i></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Nome" aria-label="Nome"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    
+                    <label for="exampleFormControlInput1">Email</label>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Email" aria-label="Email"
+                            aria-describedby="basic-addon1">
+                    </div>
+                   
+                    <label for="exampleFormControlInput1">Telefone</label>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-mobile-alt"></i></span>
+                        </div>
+                        <input type="number" class="form-control" placeholder="(xxx)xxxx-xxxx" aria-label="telefone"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <button type="button" class="btn btn-success">Adicionar</button>
+                    <br><br>
+                    <p>Lista de Cadastros</p>
+                </div>
+            </div>
+
+         </div>
+    </div>
+   
 </body>
 </html>
